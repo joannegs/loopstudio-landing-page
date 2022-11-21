@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { creations } from './../creations';
 
 @Component({
   selector: 'app-creations-page',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./creations-page.component.scss']
 })
 export class CreationsPageComponent {
-
+  creationsList = creations;
 }

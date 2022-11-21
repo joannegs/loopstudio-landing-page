@@ -1,1 +1,10 @@
-<p>creations-page works!</p>
+<div class="creations-page-container">
+    <h2> Our creations </h2>
+
+    <div class="cretions-grid"> 
+        <div *ngFor="let creation of creationsList">
+            <img src="../../assets/image-{{creation.imageTitle}}.jpg" alt="">
+            <h4> {{ creation.title }} </h4>
+        </div>
+    </div>
+</div>
