@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class FooterPageComponent {
   mediaIcons = ['facebook', 'twitter', 'pinterest', 'instagram'];
-
 }
