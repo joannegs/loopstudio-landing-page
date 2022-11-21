@@ -1,1 +1,12 @@
-<p>footer-page works!</p>
+<div class="footer-container">
+    <div>
+        <h2>loopstudios</h2>
+        <app-menu-items></app-menu-items>
+    </div>
+
+    <div>
+        <img *ngFor='let media of mediaIcons' src="../../assets/icon-{{media}}.svg" alt="">
+        <span>© 2021 Loopstudios. All rights reserved.</span>
+    </div>
+
+</div>

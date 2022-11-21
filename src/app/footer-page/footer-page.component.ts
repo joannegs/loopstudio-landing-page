@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer-page.component.scss']
 })
 export class FooterPageComponent {
+  mediaIcons = ['facebook', 'twitter', 'pinterest', 'instagram'];
 
 }

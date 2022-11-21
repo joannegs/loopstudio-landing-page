@@ -7,6 +7,7 @@ import { LandingPageHomeComponent } from './landing-page-home/landing-page-home.
 import { HistoryPageComponent } from './history-page/history-page.component';
 import { CreationsPageComponent } from './creations-page/creations-page.component';
 import { FooterPageComponent } from './footer-page/footer-page.component';
+import { MenuItemsComponent } from './menu-items/menu-items.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterPageComponent } from './footer-page/footer-page.component';
     LandingPageHomeComponent,
     HistoryPageComponent,
     CreationsPageComponent,
-    FooterPageComponent
+    FooterPageComponent,
+    MenuItemsComponent
   ],
   imports: [
     BrowserModule,

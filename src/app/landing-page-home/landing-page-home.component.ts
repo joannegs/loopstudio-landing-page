@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./landing-page-home.component.scss']
 })
 export class LandingPageHomeComponent {
-  menuItems = ['About', 'Careers', 'Events', 'Products', 'Support']
 }
