@@ -1,0 +1,32 @@
+@import '../../styles.scss';
+
+.history-page-container {
+    background-color: $color-white;
+    position: relative;
+
+    img {
+        width: 45%;
+        height: auto;
+        margin: 6rem 9rem;
+        position: absolute;
+    }
+
+    .history-content {
+        width: 40%;
+        background-color: $color-white;
+        position: absolute;
+        margin: 19% 45%;
+        padding: 4rem 4rem;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 3rem;
+            color: $color-black;
+        }
+
+        span {
+            color: $color-very-dark-grey;
+        }
+    }
+
+}
