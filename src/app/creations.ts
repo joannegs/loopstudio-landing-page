@@ -12,7 +12,7 @@ export const creations = [
         imageTitle: 'soccer-team',
     },
     {
-        title: 'th grid',
+        title: 'the grid',
         imageTitle: 'grid',
     },
     {
@@ -20,7 +20,7 @@ export const creations = [
         imageTitle: 'from-above',
     },
     {
-        title: 'pocket-borealis',
+        title: 'pocket borealis',
         imageTitle: 'pocket-borealis',
     },
     {

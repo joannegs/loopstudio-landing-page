@@ -1,10 +1,13 @@
 <div class="creations-page-container">
-    <h2> Our creations </h2>
+    <div class="d-flex font-title-regular text title-line justify-content-between">
+        <h2> Our creations </h2>
+        <button class="font-title-regular text"> See all </button>
+    </div>
 
-    <div class="cretions-grid"> 
-        <div *ngFor="let creation of creationsList">
+    <div class="d-flex flex-wrap creations-grid"> 
+        <div class="creation-container" *ngFor="let creation of creationsList">
             <img src="../../assets/image-{{creation.imageTitle}}.jpg" alt="">
-            <h4> {{ creation.title }} </h4>
+            <h4 class="font-title-regular"> {{ creation.title }} </h4>
         </div>
     </div>
 </div>
