@@ -1,0 +1,19 @@
+.clicable-link {
+    &::after {
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 25%;
+        width: 0;
+        height: 0;
+        font-weight: bold;
+        border-bottom: 2px solid $color-white;
+        transition: 0.4s;
+    }
+
+    &:hover::after {
+        width: 100%;
+        left: 0;
+        color: $color-white;
+    }
+}

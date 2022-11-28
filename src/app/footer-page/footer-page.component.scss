@@ -1,0 +1,30 @@
+@import '../../styles.scss';
+
+.footer-container {
+    background-color: $color-black;
+    height: 10rem;
+    width: 100%;
+    padding: 3.5rem 7rem;
+
+    .left-elements {
+        margin-bottom: 15px;
+
+        .social-media-icons {
+            margin-left: 15px;
+            cursor: pointer;
+            position: relative;
+        }
+    }
+
+    span {
+        color: $color-grey;
+    }
+
+    .clicable-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

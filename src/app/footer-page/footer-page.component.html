@@ -1,12 +1,17 @@
 <div class="footer-container">
-    <div>
-        <h2>loopstudios</h2>
-        <app-menu-items></app-menu-items>
+    <div class="d-flex justify-content-between left-elements">
+        <img src="../../assets/logo.svg" alt="">
+        <div class="d-flex">
+            <div *ngFor='let media of mediaIcons' class="social-media-icons">
+                <img class="" src="../../assets/icon-{{media}}.svg" alt="{{media}} icon">
+                <div class="clicable-link"></div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <img *ngFor='let media of mediaIcons' src="../../assets/icon-{{media}}.svg" alt="">
-        <span>© 2021 Loopstudios. All rights reserved.</span>
+    <div class="d-flex justify-content-between right-elements">
+        <app-menu-items></app-menu-items>
+        <span class="font-regular-body">© 2021 Loopstudios. All rights reserved.</span>
     </div>
 
 </div>
