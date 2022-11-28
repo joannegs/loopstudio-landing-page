@@ -1,12 +1,16 @@
 @import '../../styles.scss';
 
-/*TODO: Mudar bilho da imagem de fundo */
-
 .home-container {
+    position: absolute;
+    background-color: $color-black;
+    width: 100%;
+    height: 100%;
+
     .background {
         position: absolute;
         width: 100%;
         height: 100%;
+        opacity: 60%;
     }
 
     .relative-position {
@@ -23,7 +27,7 @@
         color: $color-white;
         border: 3.5px $color-white solid;
         padding: 2rem;
-        width: 60%;
-        margin-left: 9rem;
+        width: 48%;
+        margin: 7rem 9rem;
     }
 }

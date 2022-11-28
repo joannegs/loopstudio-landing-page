@@ -2,7 +2,7 @@
 
 .creations-page-container {
     width: 100%;
-    padding: 7rem;
+    padding: 0 7rem;
 
     .title-line {
         margin-bottom: 7%;
@@ -32,9 +32,21 @@
 
 
     .creation-container {
-       flex-basis: 25%;
-       padding-bottom: 5%;
-        
+        flex-basis: 25%;
+        padding-bottom: 5%;
+        cursor: pointer;
+
+        &:hover {
+            h4 {
+                color: $color-black;
+                font-weight: 500;
+            }
+
+            img {
+                opacity: 35%;
+            }
+        }
+
         .creation-img {
             height: 100%;
             width: 20%;

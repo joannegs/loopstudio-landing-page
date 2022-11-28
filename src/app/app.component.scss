@@ -1,1 +1,8 @@
+@import '../styles.scss';
 
+@for $i from 0 through 10 {
+    .vh-#{$i * 10} {
+      height: #{$i * 36 + 'vh !important'};
+    }
+  }
+  
